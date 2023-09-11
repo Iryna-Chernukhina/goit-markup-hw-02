@@ -29,54 +29,31 @@ body {
   letter-spacing: 0.32px;
   line-height: 1.5;
 }
-.adres {
+.address {
   font-style: normal;
 }
-.address {
+.contakts {
   font-size: 16px;
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
-.studio {
+.studio-item {
   text-decoration: none;
   color: #2e2f42;
 }
-.studio:hover,
-.studio:focus {
+.studio-item:hover,
+.studio-item:focus {
   color: #404bbf;
 }
-.portfolio {
-  text-decoration: none;
-  color: #2e2f42;
-}
-.portfolio:hover,
-.portfolio:focus {
-  color: #404bbf;
-}
-.contacts {
-  text-decoration: none;
-  color: #2e2f42;
-}
-.contacts:hover,
-.contacts:focus {
-  color: #404bbf;
-}
-.mailto {
+
+.contakt {
   text-decoration: none;
   color: #434455;
 }
-.mailto:hover,
-.mailto:focus {
-  color: #404bbf;
-}
-.telefon {
-  text-decoration: none;
-  color: #434455;
-}
-.telefon:hover,
-.telefon:focus {
+.contakt:hover,
+.contakt:focus {
   color: #404bbf;
 }
 
@@ -94,7 +71,6 @@ body {
 }
 .button {
   background-color: #4d5ae5;
-
   color: #ffffff;
   font-size: 16px;
   font-style: normal;
@@ -103,7 +79,6 @@ body {
   letter-spacing: 0.64px;
   text-align: center;
   cursor: pointer;
-  font-family: "Roboto", sans-serif;
 }
 .button:hover,
 .button:focus {
@@ -130,9 +105,7 @@ body {
 .section-team {
   background-color: #f4f4fd;
 }
-.team-list {
-  background-color: #ffffff;
-}
+
 .title-what {
   font-size: 36px;
   font-style: normal;
@@ -159,7 +132,12 @@ body {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  background-color: #ffffff;
 }
+.employee {
+  background-color: #ffffff;
+}
+
 .portfolio {
   background-color: #fff;
 }
@@ -167,7 +145,6 @@ body {
   background-color: #2e2f42;
 }
 .webstudio {
-  flex-direction: column;
   justify-content: center;
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
