@@ -27,6 +27,7 @@ body {
   font-size: 16px;
   color: #2e2f42;
   letter-spacing: 0.32px;
+  line-height: 1.5;
 }
 .adres {
   font-style: normal;
@@ -93,6 +94,7 @@ body {
 }
 .button {
   background-color: #4d5ae5;
+
   color: #ffffff;
   font-size: 16px;
   font-style: normal;
@@ -101,6 +103,7 @@ body {
   letter-spacing: 0.64px;
   text-align: center;
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
 }
 .button:hover,
 .button:focus {
@@ -122,9 +125,13 @@ body {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  color: #434455;
 }
 .section-team {
   background-color: #f4f4fd;
+}
+.team-list {
+  background-color: #ffffff;
 }
 .title-what {
   font-size: 36px;
