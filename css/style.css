@@ -10,14 +10,17 @@ body {
   font-weight: 500;
 }
 .logo {
-  font-family: "Ralewey", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
-  font-weight: 800;
-  color: #2e2f42;
-  line-height: 1, 17;
+  font-weight: 700;
+  color: #4d5ae5;
   letter-spacing: 0.54px;
   text-decoration: none;
   text-transform: uppercase;
+  line-height: 1.17;
+}
+.logo-studio {
+  color: #2e2f42;
 }
 
 .page-nav {
@@ -25,34 +28,55 @@ body {
   color: #2e2f42;
   letter-spacing: 0.32px;
 }
-
+.adres {
+  font-style: normal;
+}
 .address {
   font-size: 16px;
   font-style: normal;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
 .studio {
   text-decoration: none;
+  color: #2e2f42;
+}
+.studio:hover,
+.studio:focus {
+  color: #404bbf;
 }
 .portfolio {
   text-decoration: none;
+  color: #2e2f42;
+}
+.portfolio:hover,
+.portfolio:focus {
+  color: #404bbf;
 }
 .contacts {
   text-decoration: none;
+  color: #2e2f42;
+}
+.contacts:hover,
+.contacts:focus {
+  color: #404bbf;
 }
 .mailto {
   text-decoration: none;
+  color: #434455;
 }
-.mailto:hover {
-  color: chocolate;
+.mailto:hover,
+.mailto:focus {
+  color: #404bbf;
 }
 .telefon {
   text-decoration: none;
+  color: #434455;
 }
-.telefon:hover {
-  color: chocolate;
+.telefon:hover,
+.telefon:focus {
+  color: #404bbf;
 }
 
 .section-name {
@@ -63,19 +87,24 @@ body {
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1, 07;
+  line-height: 1.07;
   letter-spacing: 1.12px;
   text-align: center;
 }
 .button {
   background-color: #4d5ae5;
+  color: #ffffff;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.64px;
   text-align: center;
   cursor: pointer;
+}
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
 }
 .section-advantages {
   background-color: #fff;
@@ -86,6 +115,7 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  color: #2e2f42;
 }
 .about {
   font-size: 16px;
@@ -107,19 +137,20 @@ body {
   text-align: center;
 }
 .teams {
+  background-color: #ffffff;
   color: #2e2f42;
   text-align: center;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1, 2;
+  line-height: 1.2;
   letter-spacing: 0.4px;
 }
 .about-team {
   text-align: center;
   font-size: 16px;
   font-style: normal;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 .portfolio {
@@ -131,8 +162,8 @@ body {
 .webstudio {
   flex-direction: column;
   justify-content: center;
-  color: #f4f4fd;
-  font-family: Raleway;
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -141,6 +172,9 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   cursor: pointer;
+}
+.logot {
+  color: #f4f4fd;
 }
 .result {
   color: #f4f4fd;
